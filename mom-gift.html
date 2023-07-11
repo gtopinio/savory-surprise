@@ -7,11 +7,37 @@
 </head>
 <body>
     <div class="container">
-        <div class="container-content">
-            <h1>Quick Recipe Generator</h1>
+        <div class="bday-container-content">
+            <h1>Random Recipe Generator</h1>
             <div class="bday-message">
-               Happy Birthday Mom!
+               Happy Birthday, Ma!
             </div>
+            <div class="author">
+                Your Favorite Son, Genesis
+            </div>
+            <button id="generate-btn">Click Me!</button>
+        </div>
+
+        <div class="recipe-name-card">
+            <h1 id="recipe-name"></h1>
+        </div>
+        
+        <div class="recipe-ingredients-card">
+            <h2 id="ingredients-title"></h2>
+            <ul id="ingredients-list"></ul>
+        </div>
+
+        <div id="img-card" hidden="true">
+            <img id="food-img">
+        </div>
+
+        <div class="recipe-instructions-card">
+            <h2 id="instructions-title"></h2>
+            <h3 id="instructions"></h3>
+        </div>
+
+        <div class="recipe-video-card">
+            <iframe id="video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     
