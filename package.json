@@ -1,0 +1,16 @@
+{
+  "name": "mom-gift",
+  "version": "1.0.0",
+  "description": "gift for mom 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gift",
+    "mom",
+    "2023"
+  ],
+  "author": "Mark Genesis Topinio",
+  "license": "ISC"
+}
