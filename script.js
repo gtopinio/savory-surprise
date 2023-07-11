@@ -23,8 +23,8 @@ generateButton.addEventListener('click', () => {
             // set the src attribute of the recipe-image element to the recipeImage
             recipeImageElement.setAttribute('src', recipeImage);
             // set the width and height of the recipe-image element
-            recipeImageElement.setAttribute('width', '250px');
-            recipeImageElement.setAttribute('height', '250px');
+            recipeImageElement.setAttribute('width', '300px');
+            recipeImageElement.setAttribute('height', '300px');
 
             // get the ingredients from the data object. It has a max of 20 ingredients
             // so we need to loop through them
