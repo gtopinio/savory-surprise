@@ -121,7 +121,7 @@ li {
     font-weight: bolder;
     margin-bottom: 1rem;
     font-family: 'Belanosima', sans-serif;
-    color: #ffffff;
+    color: #fffc60;
     text-transform: uppercase;
     animation: waviy 1s infinite;
     animation-delay: calc(.1s * var(--i));
@@ -183,6 +183,15 @@ li {
     font-family: 'Belanosima', sans-serif;
     color: #ffffff;
 }
+
+.caption {
+    font-size: 1.0rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Belanosima', sans-serif;
+    color: rgb(127, 245, 188);
+}
+
 
 @keyframes waviy {
     0%,40%,100% {
