@@ -126,6 +126,7 @@ li {
     display: block;
     margin: 0 auto;
     margin-top: -30px;
+    margin-bottom: 200px;
     width: 550px;
     border-radius: 10px;
     backdrop-filter: blur(20px);
