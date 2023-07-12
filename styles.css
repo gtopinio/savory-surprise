@@ -50,6 +50,13 @@ li {
     font-style: italic;
 }
 
+#confetti-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    }
+
 .fam-pic-container {
     overflow: hidden;
     background-color: rgba(232, 215, 32, 0.5);
