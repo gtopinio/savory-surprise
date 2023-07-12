@@ -116,6 +116,9 @@ generateButton.addEventListener('click', () => {
             const videoElement = document.getElementById('video');
             // set the src attribute of the iframe element to the videoLink
             videoElement.setAttribute('src', formattedVideoLink);
+
+            // rename the button to "Click me again!"
+            generateButton.innerHTML = "Click me again!";
         })
         .catch(error => {
             console.log(error);
